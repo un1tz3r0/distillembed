@@ -1,4 +1,4 @@
-!(distillembed logo)[distillembed_splash.png]
+![splash image](distillembed_project_splash.png)
 
 # distillembed
 
