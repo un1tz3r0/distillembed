@@ -63,6 +63,12 @@ make -C cpp              # demo_embed, demo_search, demb_selftest
 uv run pytest            # 18 tests incl. exact Python↔C++ parity & no-heap agreement
 ```
 
+For a full guided walkthrough (install → corpus → distill → fine-tune → export
+→ on-device search program), see [QUICKSTART.md](QUICKSTART.md). For
+task-oriented recipes (quantization tradeoffs, hybrid search, incremental
+refine, ...), see [HOWTO.md](HOWTO.md). Every command in both is tested for
+real by `tools/run_doctests.py`.
+
 ### Pipeline
 
 ```sh
