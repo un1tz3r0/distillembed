@@ -1,0 +1,37 @@
+[project]
+name = "distillembed"
+version = "0.1.0"
+description = "Distill sentence-transformer teachers into tiny static-embedding models for embedded targets"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "sentencepiece>=0.2.0",
+]
+
+[project.optional-dependencies]
+# Heavy deps only needed for the distillation/refine/eval steps (not for
+# tokenizer training, export, or the numpy reference encoder).
+distill = [
+    "sentence-transformers>=3.0",
+    "torch>=2.2",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+distillembed = "distillembed.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

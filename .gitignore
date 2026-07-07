@@ -1,0 +1,10 @@
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+dist/
+cpp/build/
+models/
+data/
+*.dem
+*.demc
