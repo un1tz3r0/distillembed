@@ -1,3 +1,5 @@
+!(distillembed logo)[distillembed_splash.png]
+
 # distillembed
 
 Distill sentence-transformer embedding models into **tiny static lookup-table
