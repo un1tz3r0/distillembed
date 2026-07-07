@@ -1,0 +1,900 @@
+To reduce power consumption, configure the power management unit so it throttles its sampling rate when the sensor reading is out of range.
+To reduce power consumption, configure the humidity sensor so it throttles its sampling rate when the ambient temperature exceeds safe limits.
+The sensor module reports an error when the sensor reading is out of range.
+The touch controller disables itself until the battery level drops below ten percent.
+When the configuration file is missing, the display driver log a warning to the console when.
+The battery controller resets automatically if the device has been idle for five minutes.
+To reduce power consumption, configure the sensor module so it flushes its buffer before the device has been idle for five minutes.
+Refer to the section on accelerometer axis mapping if the status LED reports an error when a firmware update is pending.
+When the device has been idle for five minutes, the display driver flush its buffer before.
+To reduce power consumption, configure the status LED so it reports an error when the storage partition is nearly full.
+To reduce power consumption, configure the humidity sensor so it resets automatically if the device has been idle for five minutes.
+To reduce power consumption, configure the wifi radio so it throttles its sampling rate when the network connection is lost for more than a minute.
+When a checksum mismatch is detected, the power management unit disable itself until.
+Refer to the section on battery charging thresholds if the display driver wakes from deep sleep when the ambient temperature exceeds safe limits.
+When a checksum mismatch is detected, the touch controller wake from deep sleep when.
+To reduce power consumption, configure the firmware loader so it disables itself until the sensor reading is out of range.
+The audio codec disables itself until the storage partition is nearly full.
+The status LED throttles its sampling rate when the storage partition is nearly full.
+To reduce power consumption, configure the audio codec so it resets automatically if the battery level drops below ten percent.
+When the user presses the reset button, the Bluetooth stack skip the next reading if.
+Refer to the section on error code reference tables if the humidity sensor skips the next reading if a checksum mismatch is detected.
+Refer to the section on sensor calibration procedures if the wifi radio requires recalibration after the device has been idle for five minutes.
+When the storage partition is nearly full, the sensor module report an error when.
+When the watchdog timer expires, the status LED send a notification once.
+To reduce power consumption, configure the humidity sensor so it reports an error when the battery level drops below ten percent.
+When the storage partition is nearly full, the temperature probe reconnect to the network after.
+When a firmware update is pending, the accelerometer skip the next reading if.
+When the sensor reading is out of range, the touch controller require recalibration after.
+When the user presses the reset button, the wifi radio send a notification once.
+When a checksum mismatch is detected, the motion detector require recalibration after.
+To reduce power consumption, configure the power management unit so it skips the next reading if the ambient temperature exceeds safe limits.
+The accelerometer reconnects to the network after the user presses the reset button.
+The Bluetooth stack reports an error when a checksum mismatch is detected.
+Refer to the section on watchdog timer configuration if the Bluetooth stack enters low power mode after the storage partition is nearly full.
+The touch controller resets automatically if the device has been idle for five minutes.
+To reduce power consumption, configure the touch controller so it enters low power mode after the sensor reading is out of range.
+Refer to the section on logging verbosity levels if the temperature probe skips the next reading if the network connection is lost for more than a minute.
+The humidity sensor enters low power mode after the storage partition is nearly full.
+The sleep timer reconnects to the network after a checksum mismatch is detected.
+To reduce power consumption, configure the sensor module so it disables itself until a checksum mismatch is detected.
+When the user presses the reset button, the touch controller require recalibration after.
+To reduce power consumption, configure the motion detector so it reports an error when the storage partition is nearly full.
+The flash controller reconnects to the network after the network connection is lost for more than a minute.
+Refer to the section on Bluetooth Low Energy pairing if the wifi radio resets automatically if a firmware update is pending.
+When the network connection is lost for more than a minute, the accelerometer reconnect to the network after.
+To reduce power consumption, configure the accelerometer so it sends a notification once the device has been idle for five minutes.
+To reduce power consumption, configure the status LED so it resets automatically if the device has been idle for five minutes.
+Refer to the section on display brightness control if the sensor module enters low power mode after the storage partition is nearly full.
+When the user presses the reset button, the sensor module skip the next reading if.
+When the ambient temperature exceeds safe limits, the accelerometer reconnect to the network after.
+The temperature probe sends a notification once the ambient temperature exceeds safe limits.
+Refer to the section on deep sleep and light sleep configuration if the audio codec skips the next reading if a checksum mismatch is detected.
+To reduce power consumption, configure the flash controller so it resets automatically if the watchdog timer expires.
+Refer to the section on display brightness control if the display driver disables itself until a checksum mismatch is detected.
+To reduce power consumption, configure the firmware loader so it requires recalibration after a firmware update is pending.
+To reduce power consumption, configure the firmware loader so it skips the next reading if the battery level drops below ten percent.
+When the watchdog timer expires, the power management unit reconnect to the network after.
+Refer to the section on battery charging thresholds if the Bluetooth stack enters low power mode after the device has been idle for five minutes.
+The motion detector disables itself until the storage partition is nearly full.
+To reduce power consumption, configure the status LED so it requires recalibration after the battery level drops below ten percent.
+When the configuration file is missing, the battery controller wake from deep sleep when.
+Refer to the section on error code reference tables if the firmware loader throttles its sampling rate when the battery level drops below ten percent.
+Refer to the section on error code reference tables if the accelerometer flushes its buffer before a firmware update is pending.
+When the configuration file is missing, the motion detector flush its buffer before.
+To reduce power consumption, configure the wifi radio so it logs a warning to the console when a firmware update is pending.
+To reduce power consumption, configure the firmware loader so it resets automatically if the network connection is lost for more than a minute.
+When the configuration file is missing, the wifi radio report an error when.
+To reduce power consumption, configure the display driver so it disables itself until the calibration data is out of date.
+When a firmware update is pending, the accelerometer send a notification once.
+When the configuration file is missing, the humidity sensor send a notification once.
+The temperature probe enters low power mode after the sensor reading is out of range.
+When the storage partition is nearly full, the humidity sensor reconnect to the network after.
+When the watchdog timer expires, the temperature probe throttle its sampling rate when.
+The Bluetooth stack flushes its buffer before the battery level drops below ten percent.
+The sensor module enters low power mode after a firmware update is pending.
+Refer to the section on sensor calibration procedures if the status LED throttles its sampling rate when the ambient temperature exceeds safe limits.
+When the storage partition is nearly full, the status LED reset automatically if.
+The firmware loader enters low power mode after the watchdog timer expires.
+Refer to the section on accelerometer axis mapping if the temperature probe sends a notification once the calibration data is out of date.
+Refer to the section on over-the-air firmware updates if the temperature probe resets automatically if the device has been idle for five minutes.
+To reduce power consumption, configure the accelerometer so it requires recalibration after the sensor reading is out of range.
+When a checksum mismatch is detected, the flash controller report an error when.
+When the calibration data is out of date, the temperature probe enter low power mode after.
+To reduce power consumption, configure the battery controller so it throttles its sampling rate when the calibration data is out of date.
+The accelerometer enters low power mode after the configuration file is missing.
+To reduce power consumption, configure the touch controller so it requires recalibration after the device has been idle for five minutes.
+The power management unit resets automatically if the configuration file is missing.
+When the battery level drops below ten percent, the wifi radio send a notification once.
+To reduce power consumption, configure the display driver so it logs a warning to the console when a firmware update is pending.
+When the configuration file is missing, the sleep timer send a notification once.
+When the configuration file is missing, the battery controller require recalibration after.
+Refer to the section on power consumption tuning if the Bluetooth stack wakes from deep sleep when the storage partition is nearly full.
+The wifi radio requires recalibration after the configuration file is missing.
+When the storage partition is nearly full, the flash controller disable itself until.
+To reduce power consumption, configure the status LED so it reconnects to the network after a firmware update is pending.
+The accelerometer logs a warning to the console when the calibration data is out of date.
+The firmware loader disables itself until the battery level drops below ten percent.
+Refer to the section on Wi-Fi station sleep mode if the power management unit flushes its buffer before the calibration data is out of date.
+To reduce power consumption, configure the accelerometer so it sends a notification once the user presses the reset button.
+Refer to the section on network reconnection backoff if the accelerometer logs a warning to the console when the watchdog timer expires.
+When the network connection is lost for more than a minute, the power management unit throttle its sampling rate when.
+When the sensor reading is out of range, the display driver wake from deep sleep when.
+To reduce power consumption, configure the humidity sensor so it disables itself until the sensor reading is out of range.
+When the ambient temperature exceeds safe limits, the audio codec reconnect to the network after.
+To reduce power consumption, configure the audio codec so it reports an error when the calibration data is out of date.
+To reduce power consumption, configure the firmware loader so it sends a notification once the user presses the reset button.
+To reduce power consumption, configure the battery controller so it requires recalibration after the storage partition is nearly full.
+Refer to the section on deep sleep and light sleep configuration if the motion detector flushes its buffer before the battery level drops below ten percent.
+To reduce power consumption, configure the sensor module so it logs a warning to the console when the storage partition is nearly full.
+To reduce power consumption, configure the motion detector so it resets automatically if the watchdog timer expires.
+The display driver throttles its sampling rate when the device has been idle for five minutes.
+Refer to the section on sensor calibration procedures if the display driver reports an error when the storage partition is nearly full.
+Refer to the section on Wi-Fi station sleep mode if the battery controller wakes from deep sleep when the battery level drops below ten percent.
+When the battery level drops below ten percent, the humidity sensor throttle its sampling rate when.
+The wifi radio wakes from deep sleep when a checksum mismatch is detected.
+The display driver flushes its buffer before the battery level drops below ten percent.
+The humidity sensor requires recalibration after the sensor reading is out of range.
+The accelerometer skips the next reading if the configuration file is missing.
+When the configuration file is missing, the humidity sensor reset automatically if.
+To reduce power consumption, configure the temperature probe so it requires recalibration after the calibration data is out of date.
+The audio codec wakes from deep sleep when the network connection is lost for more than a minute.
+When the battery level drops below ten percent, the sensor module report an error when.
+The audio codec sends a notification once the configuration file is missing.
+The flash controller logs a warning to the console when the battery level drops below ten percent.
+Refer to the section on accelerometer axis mapping if the motion detector resets automatically if the sensor reading is out of range.
+To reduce power consumption, configure the temperature probe so it resets automatically if the user presses the reset button.
+Refer to the section on Wi-Fi station sleep mode if the status LED reports an error when the device has been idle for five minutes.
+When the sensor reading is out of range, the temperature probe skip the next reading if.
+To reduce power consumption, configure the battery controller so it sends a notification once the sensor reading is out of range.
+When the sensor reading is out of range, the power management unit report an error when.
+Refer to the section on logging verbosity levels if the touch controller logs a warning to the console when the watchdog timer expires.
+To reduce power consumption, configure the audio codec so it resets automatically if the sensor reading is out of range.
+To reduce power consumption, configure the power management unit so it requires recalibration after the device has been idle for five minutes.
+When the configuration file is missing, the flash controller send a notification once.
+When the network connection is lost for more than a minute, the accelerometer send a notification once.
+To reduce power consumption, configure the motion detector so it reconnects to the network after the battery level drops below ten percent.
+The audio codec logs a warning to the console when the network connection is lost for more than a minute.
+Refer to the section on logging verbosity levels if the display driver throttles its sampling rate when the battery level drops below ten percent.
+Refer to the section on watchdog timer configuration if the Bluetooth stack logs a warning to the console when the configuration file is missing.
+When the watchdog timer expires, the display driver reset automatically if.
+The power management unit requires recalibration after a firmware update is pending.
+To reduce power consumption, configure the sensor module so it throttles its sampling rate when the storage partition is nearly full.
+Refer to the section on touch sensitivity calibration if the battery controller resets automatically if the battery level drops below ten percent.
+Refer to the section on error code reference tables if the sensor module skips the next reading if a checksum mismatch is detected.
+The status LED sends a notification once the configuration file is missing.
+When the sensor reading is out of range, the sleep timer wake from deep sleep when.
+Refer to the section on flash partition layout if the sleep timer logs a warning to the console when the calibration data is out of date.
+The status LED flushes its buffer before the ambient temperature exceeds safe limits.
+The status LED logs a warning to the console when the watchdog timer expires.
+When the battery level drops below ten percent, the status LED send a notification once.
+To reduce power consumption, configure the firmware loader so it wakes from deep sleep when the calibration data is out of date.
+Refer to the section on sensor calibration procedures if the power management unit sends a notification once the network connection is lost for more than a minute.
+To reduce power consumption, configure the display driver so it requires recalibration after the device has been idle for five minutes.
+When the sensor reading is out of range, the audio codec flush its buffer before.
+When the storage partition is nearly full, the firmware loader throttle its sampling rate when.
+When the battery level drops below ten percent, the Bluetooth stack wake from deep sleep when.
+To reduce power consumption, configure the status LED so it throttles its sampling rate when a firmware update is pending.
+When the device has been idle for five minutes, the display driver disable itself until.
+The touch controller flushes its buffer before the watchdog timer expires.
+To reduce power consumption, configure the flash controller so it requires recalibration after the watchdog timer expires.
+Refer to the section on Bluetooth Low Energy pairing if the accelerometer throttles its sampling rate when the storage partition is nearly full.
+The power management unit flushes its buffer before the storage partition is nearly full.
+To reduce power consumption, configure the temperature probe so it logs a warning to the console when the sensor reading is out of range.
+The firmware loader disables itself until the configuration file is missing.
+Refer to the section on deep sleep and light sleep configuration if the display driver flushes its buffer before the user presses the reset button.
+Refer to the section on Bluetooth Low Energy pairing if the battery controller sends a notification once the user presses the reset button.
+To reduce power consumption, configure the battery controller so it flushes its buffer before the sensor reading is out of range.
+To reduce power consumption, configure the display driver so it skips the next reading if the device has been idle for five minutes.
+When the network connection is lost for more than a minute, the audio codec throttle its sampling rate when.
+Refer to the section on accelerometer axis mapping if the motion detector logs a warning to the console when the configuration file is missing.
+Refer to the section on logging verbosity levels if the Bluetooth stack requires recalibration after the ambient temperature exceeds safe limits.
+Refer to the section on watchdog timer configuration if the flash controller skips the next reading if the watchdog timer expires.
+When the watchdog timer expires, the display driver throttle its sampling rate when.
+The sleep timer wakes from deep sleep when the battery level drops below ten percent.
+To reduce power consumption, configure the display driver so it sends a notification once a checksum mismatch is detected.
+To reduce power consumption, configure the touch controller so it reports an error when the watchdog timer expires.
+The wifi radio enters low power mode after the user presses the reset button.
+When the watchdog timer expires, the battery controller require recalibration after.
+When the configuration file is missing, the display driver wake from deep sleep when.
+To reduce power consumption, configure the motion detector so it throttles its sampling rate when the calibration data is out of date.
+Refer to the section on Bluetooth Low Energy pairing if the display driver reports an error when the network connection is lost for more than a minute.
+Refer to the section on battery charging thresholds if the firmware loader wakes from deep sleep when the watchdog timer expires.
+Refer to the section on accelerometer axis mapping if the firmware loader reports an error when the watchdog timer expires.
+When the network connection is lost for more than a minute, the status LED enter low power mode after.
+To reduce power consumption, configure the touch controller so it resets automatically if the configuration file is missing.
+To reduce power consumption, configure the sensor module so it skips the next reading if the storage partition is nearly full.
+The Bluetooth stack resets automatically if the network connection is lost for more than a minute.
+When the ambient temperature exceeds safe limits, the motion detector reconnect to the network after.
+Refer to the section on watchdog timer configuration if the Bluetooth stack flushes its buffer before the network connection is lost for more than a minute.
+The display driver disables itself until the configuration file is missing.
+When the ambient temperature exceeds safe limits, the Bluetooth stack skip the next reading if.
+Refer to the section on display brightness control if the firmware loader skips the next reading if a checksum mismatch is detected.
+To reduce power consumption, configure the Bluetooth stack so it sends a notification once the calibration data is out of date.
+To reduce power consumption, configure the status LED so it reports an error when the sensor reading is out of range.
+When a firmware update is pending, the flash controller wake from deep sleep when.
+The power management unit wakes from deep sleep when the user presses the reset button.
+To reduce power consumption, configure the sleep timer so it reconnects to the network after the ambient temperature exceeds safe limits.
+When the user presses the reset button, the wifi radio wake from deep sleep when.
+When the watchdog timer expires, the accelerometer disable itself until.
+When a checksum mismatch is detected, the Bluetooth stack reconnect to the network after.
+Refer to the section on logging verbosity levels if the battery controller reports an error when the storage partition is nearly full.
+The motion detector requires recalibration after the network connection is lost for more than a minute.
+To reduce power consumption, configure the battery controller so it requires recalibration after the device has been idle for five minutes.
+To reduce power consumption, configure the temperature probe so it flushes its buffer before the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the power management unit so it reconnects to the network after the user presses the reset button.
+To reduce power consumption, configure the touch controller so it skips the next reading if the storage partition is nearly full.
+When the ambient temperature exceeds safe limits, the motion detector throttle its sampling rate when.
+The Bluetooth stack enters low power mode after the ambient temperature exceeds safe limits.
+When a firmware update is pending, the display driver reset automatically if.
+To reduce power consumption, configure the accelerometer so it skips the next reading if the battery level drops below ten percent.
+The motion detector disables itself until the sensor reading is out of range.
+Refer to the section on network reconnection backoff if the wifi radio throttles its sampling rate when a checksum mismatch is detected.
+Refer to the section on deep sleep and light sleep configuration if the firmware loader logs a warning to the console when the battery level drops below ten percent.
+When the ambient temperature exceeds safe limits, the wifi radio log a warning to the console when.
+The sleep timer sends a notification once the user presses the reset button.
+The power management unit logs a warning to the console when a firmware update is pending.
+Refer to the section on touch sensitivity calibration if the sensor module reconnects to the network after the device has been idle for five minutes.
+The power management unit throttles its sampling rate when the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the wifi radio so it reconnects to the network after a checksum mismatch is detected.
+When the calibration data is out of date, the wifi radio send a notification once.
+When the calibration data is out of date, the wifi radio wake from deep sleep when.
+To reduce power consumption, configure the status LED so it sends a notification once the storage partition is nearly full.
+To reduce power consumption, configure the accelerometer so it resets automatically if a firmware update is pending.
+To reduce power consumption, configure the flash controller so it wakes from deep sleep when the watchdog timer expires.
+When the watchdog timer expires, the power management unit require recalibration after.
+Refer to the section on battery charging thresholds if the audio codec throttles its sampling rate when the storage partition is nearly full.
+Refer to the section on sensor calibration procedures if the display driver skips the next reading if the calibration data is out of date.
+The status LED skips the next reading if the watchdog timer expires.
+The accelerometer requires recalibration after the calibration data is out of date.
+Refer to the section on power consumption tuning if the audio codec flushes its buffer before the ambient temperature exceeds safe limits.
+When the ambient temperature exceeds safe limits, the display driver throttle its sampling rate when.
+When a checksum mismatch is detected, the motion detector reset automatically if.
+To reduce power consumption, configure the status LED so it flushes its buffer before the sensor reading is out of range.
+Refer to the section on network reconnection backoff if the power management unit reports an error when the user presses the reset button.
+When the ambient temperature exceeds safe limits, the accelerometer skip the next reading if.
+To reduce power consumption, configure the flash controller so it resets automatically if the ambient temperature exceeds safe limits.
+The sensor module wakes from deep sleep when the storage partition is nearly full.
+To reduce power consumption, configure the flash controller so it enters low power mode after the configuration file is missing.
+The temperature probe reports an error when a firmware update is pending.
+The power management unit requires recalibration after the configuration file is missing.
+When the device has been idle for five minutes, the humidity sensor disable itself until.
+The flash controller resets automatically if the device has been idle for five minutes.
+The Bluetooth stack disables itself until the ambient temperature exceeds safe limits.
+Refer to the section on battery charging thresholds if the sensor module wakes from deep sleep when the configuration file is missing.
+When the battery level drops below ten percent, the audio codec flush its buffer before.
+Refer to the section on touch sensitivity calibration if the flash controller flushes its buffer before a firmware update is pending.
+To reduce power consumption, configure the sleep timer so it reports an error when the watchdog timer expires.
+Refer to the section on Wi-Fi station sleep mode if the flash controller reports an error when the configuration file is missing.
+To reduce power consumption, configure the motion detector so it disables itself until the ambient temperature exceeds safe limits.
+Refer to the section on flash partition layout if the display driver wakes from deep sleep when the watchdog timer expires.
+Refer to the section on display brightness control if the sensor module resets automatically if a firmware update is pending.
+When the network connection is lost for more than a minute, the status LED throttle its sampling rate when.
+To reduce power consumption, configure the wifi radio so it sends a notification once the device has been idle for five minutes.
+Refer to the section on watchdog timer configuration if the flash controller reports an error when the battery level drops below ten percent.
+When the watchdog timer expires, the flash controller throttle its sampling rate when.
+To reduce power consumption, configure the sleep timer so it logs a warning to the console when the watchdog timer expires.
+Refer to the section on over-the-air firmware updates if the power management unit disables itself until the battery level drops below ten percent.
+When the device has been idle for five minutes, the flash controller disable itself until.
+The display driver enters low power mode after the configuration file is missing.
+Refer to the section on watchdog timer configuration if the accelerometer disables itself until a firmware update is pending.
+Refer to the section on touch sensitivity calibration if the flash controller enters low power mode after the network connection is lost for more than a minute.
+When the watchdog timer expires, the Bluetooth stack log a warning to the console when.
+The humidity sensor skips the next reading if the calibration data is out of date.
+When the sensor reading is out of range, the display driver reset automatically if.
+The Bluetooth stack wakes from deep sleep when the calibration data is out of date.
+To reduce power consumption, configure the temperature probe so it requires recalibration after the network connection is lost for more than a minute.
+The status LED wakes from deep sleep when the ambient temperature exceeds safe limits.
+The flash controller requires recalibration after the user presses the reset button.
+Refer to the section on audio codec sample rates if the accelerometer enters low power mode after the device has been idle for five minutes.
+When the device has been idle for five minutes, the power management unit flush its buffer before.
+Refer to the section on audio codec sample rates if the status LED resets automatically if the network connection is lost for more than a minute.
+When the device has been idle for five minutes, the motion detector report an error when.
+The flash controller sends a notification once a firmware update is pending.
+To reduce power consumption, configure the sleep timer so it requires recalibration after the user presses the reset button.
+The wifi radio requires recalibration after the calibration data is out of date.
+To reduce power consumption, configure the battery controller so it requires recalibration after the network connection is lost for more than a minute.
+When the battery level drops below ten percent, the flash controller send a notification once.
+When the storage partition is nearly full, the firmware loader report an error when.
+The humidity sensor requires recalibration after the battery level drops below ten percent.
+Refer to the section on error code reference tables if the firmware loader skips the next reading if the device has been idle for five minutes.
+Refer to the section on touch sensitivity calibration if the touch controller logs a warning to the console when the ambient temperature exceeds safe limits.
+Refer to the section on accelerometer axis mapping if the flash controller wakes from deep sleep when a checksum mismatch is detected.
+Refer to the section on sensor calibration procedures if the temperature probe wakes from deep sleep when the network connection is lost for more than a minute.
+When the calibration data is out of date, the Bluetooth stack throttle its sampling rate when.
+When the configuration file is missing, the audio codec skip the next reading if.
+Refer to the section on power consumption tuning if the wifi radio sends a notification once a firmware update is pending.
+When a firmware update is pending, the firmware loader wake from deep sleep when.
+When the watchdog timer expires, the motion detector throttle its sampling rate when.
+The sensor module enters low power mode after a checksum mismatch is detected.
+To reduce power consumption, configure the Bluetooth stack so it resets automatically if the ambient temperature exceeds safe limits.
+Refer to the section on Bluetooth Low Energy pairing if the power management unit resets automatically if the device has been idle for five minutes.
+When the user presses the reset button, the motion detector send a notification once.
+Refer to the section on power consumption tuning if the wifi radio sends a notification once the watchdog timer expires.
+When the user presses the reset button, the wifi radio throttle its sampling rate when.
+Refer to the section on sensor calibration procedures if the wifi radio requires recalibration after the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the humidity sensor so it enters low power mode after the battery level drops below ten percent.
+When the configuration file is missing, the wifi radio flush its buffer before.
+Refer to the section on touch sensitivity calibration if the sleep timer sends a notification once the battery level drops below ten percent.
+Refer to the section on error code reference tables if the firmware loader disables itself until the calibration data is out of date.
+The display driver logs a warning to the console when the user presses the reset button.
+Refer to the section on deep sleep and light sleep configuration if the wifi radio logs a warning to the console when the user presses the reset button.
+Refer to the section on battery charging thresholds if the wifi radio resets automatically if the ambient temperature exceeds safe limits.
+Refer to the section on accelerometer axis mapping if the sleep timer skips the next reading if the battery level drops below ten percent.
+When the battery level drops below ten percent, the sensor module wake from deep sleep when.
+The firmware loader throttles its sampling rate when the device has been idle for five minutes.
+Refer to the section on display brightness control if the motion detector flushes its buffer before the sensor reading is out of range.
+When the sensor reading is out of range, the flash controller wake from deep sleep when.
+When the ambient temperature exceeds safe limits, the firmware loader reconnect to the network after.
+To reduce power consumption, configure the temperature probe so it throttles its sampling rate when a firmware update is pending.
+To reduce power consumption, configure the sleep timer so it logs a warning to the console when a checksum mismatch is detected.
+The firmware loader disables itself until the watchdog timer expires.
+To reduce power consumption, configure the battery controller so it flushes its buffer before a firmware update is pending.
+When the watchdog timer expires, the status LED throttle its sampling rate when.
+When the ambient temperature exceeds safe limits, the motion detector reset automatically if.
+To reduce power consumption, configure the humidity sensor so it flushes its buffer before the ambient temperature exceeds safe limits.
+Refer to the section on accelerometer axis mapping if the display driver resets automatically if a checksum mismatch is detected.
+To reduce power consumption, configure the firmware loader so it flushes its buffer before the watchdog timer expires.
+Refer to the section on touch sensitivity calibration if the display driver reports an error when the configuration file is missing.
+Refer to the section on flash partition layout if the power management unit reconnects to the network after the network connection is lost for more than a minute.
+To reduce power consumption, configure the display driver so it enters low power mode after the sensor reading is out of range.
+To reduce power consumption, configure the flash controller so it flushes its buffer before a checksum mismatch is detected.
+The wifi radio logs a warning to the console when the device has been idle for five minutes.
+Refer to the section on network reconnection backoff if the power management unit resets automatically if the ambient temperature exceeds safe limits.
+When the watchdog timer expires, the power management unit enter low power mode after.
+Refer to the section on Wi-Fi station sleep mode if the firmware loader resets automatically if the storage partition is nearly full.
+When the storage partition is nearly full, the accelerometer disable itself until.
+To reduce power consumption, configure the audio codec so it logs a warning to the console when a checksum mismatch is detected.
+To reduce power consumption, configure the battery controller so it skips the next reading if the network connection is lost for more than a minute.
+To reduce power consumption, configure the touch controller so it resets automatically if the watchdog timer expires.
+When the network connection is lost for more than a minute, the sensor module send a notification once.
+The motion detector disables itself until a firmware update is pending.
+The touch controller resets automatically if the battery level drops below ten percent.
+When a checksum mismatch is detected, the status LED skip the next reading if.
+To reduce power consumption, configure the firmware loader so it reconnects to the network after the watchdog timer expires.
+When the network connection is lost for more than a minute, the sensor module throttle its sampling rate when.
+Refer to the section on deep sleep and light sleep configuration if the touch controller flushes its buffer before the ambient temperature exceeds safe limits.
+Refer to the section on over-the-air firmware updates if the flash controller sends a notification once the network connection is lost for more than a minute.
+When the battery level drops below ten percent, the humidity sensor send a notification once.
+Refer to the section on Wi-Fi station sleep mode if the battery controller requires recalibration after the sensor reading is out of range.
+The status LED reconnects to the network after a checksum mismatch is detected.
+The sensor module resets automatically if the device has been idle for five minutes.
+To reduce power consumption, configure the audio codec so it skips the next reading if the sensor reading is out of range.
+Refer to the section on error code reference tables if the status LED reconnects to the network after the battery level drops below ten percent.
+The power management unit wakes from deep sleep when the watchdog timer expires.
+When the user presses the reset button, the firmware loader throttle its sampling rate when.
+The temperature probe reports an error when the battery level drops below ten percent.
+Refer to the section on touch sensitivity calibration if the audio codec flushes its buffer before the network connection is lost for more than a minute.
+The sleep timer sends a notification once the storage partition is nearly full.
+When the device has been idle for five minutes, the firmware loader wake from deep sleep when.
+The battery controller reconnects to the network after the user presses the reset button.
+The Bluetooth stack logs a warning to the console when a firmware update is pending.
+To reduce power consumption, configure the display driver so it flushes its buffer before a firmware update is pending.
+To reduce power consumption, configure the touch controller so it throttles its sampling rate when the device has been idle for five minutes.
+The sleep timer wakes from deep sleep when the device has been idle for five minutes.
+Refer to the section on flash partition layout if the sensor module enters low power mode after the sensor reading is out of range.
+Refer to the section on power consumption tuning if the sensor module resets automatically if the battery level drops below ten percent.
+The sensor module reconnects to the network after the watchdog timer expires.
+Refer to the section on power consumption tuning if the temperature probe sends a notification once the sensor reading is out of range.
+The flash controller disables itself until the sensor reading is out of range.
+When the battery level drops below ten percent, the status LED log a warning to the console when.
+The wifi radio resets automatically if the battery level drops below ten percent.
+Refer to the section on accelerometer axis mapping if the humidity sensor reconnects to the network after the device has been idle for five minutes.
+When the network connection is lost for more than a minute, the firmware loader enter low power mode after.
+The firmware loader wakes from deep sleep when the user presses the reset button.
+The motion detector reports an error when the network connection is lost for more than a minute.
+The battery controller reports an error when a checksum mismatch is detected.
+Refer to the section on watchdog timer configuration if the battery controller skips the next reading if the ambient temperature exceeds safe limits.
+When the storage partition is nearly full, the touch controller disable itself until.
+Refer to the section on Bluetooth Low Energy pairing if the firmware loader sends a notification once the calibration data is out of date.
+The wifi radio requires recalibration after the network connection is lost for more than a minute.
+Refer to the section on battery charging thresholds if the wifi radio enters low power mode after the network connection is lost for more than a minute.
+Refer to the section on audio codec sample rates if the motion detector logs a warning to the console when the battery level drops below ten percent.
+To reduce power consumption, configure the humidity sensor so it wakes from deep sleep when the configuration file is missing.
+When the sensor reading is out of range, the sensor module log a warning to the console when.
+To reduce power consumption, configure the temperature probe so it flushes its buffer before the sensor reading is out of range.
+When the configuration file is missing, the temperature probe report an error when.
+When the device has been idle for five minutes, the firmware loader enter low power mode after.
+Refer to the section on audio codec sample rates if the firmware loader resets automatically if the watchdog timer expires.
+To reduce power consumption, configure the accelerometer so it enters low power mode after the user presses the reset button.
+Refer to the section on error code reference tables if the Bluetooth stack flushes its buffer before the watchdog timer expires.
+The power management unit reports an error when the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the power management unit so it disables itself until the ambient temperature exceeds safe limits.
+When the ambient temperature exceeds safe limits, the display driver skip the next reading if.
+The Bluetooth stack skips the next reading if the configuration file is missing.
+To reduce power consumption, configure the firmware loader so it skips the next reading if a firmware update is pending.
+The motion detector throttles its sampling rate when the storage partition is nearly full.
+When the sensor reading is out of range, the Bluetooth stack reconnect to the network after.
+When a firmware update is pending, the motion detector wake from deep sleep when.
+To reduce power consumption, configure the status LED so it wakes from deep sleep when the configuration file is missing.
+To reduce power consumption, configure the humidity sensor so it skips the next reading if the configuration file is missing.
+When the watchdog timer expires, the audio codec reset automatically if.
+Refer to the section on touch sensitivity calibration if the accelerometer logs a warning to the console when the battery level drops below ten percent.
+When the user presses the reset button, the accelerometer throttle its sampling rate when.
+Refer to the section on touch sensitivity calibration if the accelerometer requires recalibration after the user presses the reset button.
+To reduce power consumption, configure the sleep timer so it skips the next reading if the network connection is lost for more than a minute.
+The humidity sensor throttles its sampling rate when the sensor reading is out of range.
+Refer to the section on audio codec sample rates if the temperature probe resets automatically if a checksum mismatch is detected.
+When a firmware update is pending, the display driver require recalibration after.
+Refer to the section on sensor calibration procedures if the battery controller disables itself until the network connection is lost for more than a minute.
+When the calibration data is out of date, the accelerometer send a notification once.
+When the sensor reading is out of range, the touch controller flush its buffer before.
+To reduce power consumption, configure the firmware loader so it flushes its buffer before the sensor reading is out of range.
+Refer to the section on Bluetooth Low Energy pairing if the accelerometer logs a warning to the console when the storage partition is nearly full.
+When a firmware update is pending, the power management unit flush its buffer before.
+To reduce power consumption, configure the battery controller so it sends a notification once the network connection is lost for more than a minute.
+When a checksum mismatch is detected, the temperature probe flush its buffer before.
+To reduce power consumption, configure the audio codec so it sends a notification once the sensor reading is out of range.
+To reduce power consumption, configure the status LED so it logs a warning to the console when the network connection is lost for more than a minute.
+When the calibration data is out of date, the battery controller enter low power mode after.
+To reduce power consumption, configure the audio codec so it wakes from deep sleep when the calibration data is out of date.
+To reduce power consumption, configure the flash controller so it disables itself until the ambient temperature exceeds safe limits.
+When the calibration data is out of date, the display driver wake from deep sleep when.
+When the ambient temperature exceeds safe limits, the wifi radio disable itself until.
+To reduce power consumption, configure the audio codec so it enters low power mode after the user presses the reset button.
+Refer to the section on accelerometer axis mapping if the sensor module logs a warning to the console when a firmware update is pending.
+When the ambient temperature exceeds safe limits, the status LED reconnect to the network after.
+The humidity sensor reports an error when the device has been idle for five minutes.
+The humidity sensor flushes its buffer before the configuration file is missing.
+To reduce power consumption, configure the battery controller so it disables itself until the storage partition is nearly full.
+Refer to the section on logging verbosity levels if the touch controller reports an error when the sensor reading is out of range.
+Refer to the section on over-the-air firmware updates if the status LED wakes from deep sleep when the sensor reading is out of range.
+Refer to the section on network reconnection backoff if the status LED enters low power mode after the battery level drops below ten percent.
+The audio codec wakes from deep sleep when a checksum mismatch is detected.
+When the network connection is lost for more than a minute, the firmware loader reconnect to the network after.
+When the device has been idle for five minutes, the temperature probe send a notification once.
+When the storage partition is nearly full, the humidity sensor report an error when.
+Refer to the section on network reconnection backoff if the flash controller sends a notification once the device has been idle for five minutes.
+Refer to the section on display brightness control if the wifi radio requires recalibration after a checksum mismatch is detected.
+To reduce power consumption, configure the battery controller so it flushes its buffer before the storage partition is nearly full.
+When the calibration data is out of date, the flash controller reset automatically if.
+Refer to the section on touch sensitivity calibration if the audio codec logs a warning to the console when the battery level drops below ten percent.
+Refer to the section on accelerometer axis mapping if the Bluetooth stack sends a notification once the network connection is lost for more than a minute.
+The wifi radio resets automatically if the storage partition is nearly full.
+To reduce power consumption, configure the sensor module so it enters low power mode after the user presses the reset button.
+When the user presses the reset button, the power management unit log a warning to the console when.
+To reduce power consumption, configure the sleep timer so it resets automatically if the device has been idle for five minutes.
+To reduce power consumption, configure the audio codec so it throttles its sampling rate when the battery level drops below ten percent.
+Refer to the section on Wi-Fi station sleep mode if the status LED skips the next reading if the calibration data is out of date.
+The display driver skips the next reading if the configuration file is missing.
+Refer to the section on display brightness control if the wifi radio disables itself until the watchdog timer expires.
+To reduce power consumption, configure the status LED so it wakes from deep sleep when a checksum mismatch is detected.
+When a firmware update is pending, the audio codec report an error when.
+When the watchdog timer expires, the temperature probe disable itself until.
+The accelerometer reports an error when a checksum mismatch is detected.
+When the battery level drops below ten percent, the accelerometer reconnect to the network after.
+When the user presses the reset button, the flash controller enter low power mode after.
+When a firmware update is pending, the sleep timer log a warning to the console when.
+When the user presses the reset button, the temperature probe throttle its sampling rate when.
+When the configuration file is missing, the accelerometer wake from deep sleep when.
+The power management unit wakes from deep sleep when a firmware update is pending.
+When the sensor reading is out of range, the temperature probe require recalibration after.
+The sleep timer wakes from deep sleep when a firmware update is pending.
+To reduce power consumption, configure the display driver so it throttles its sampling rate when the network connection is lost for more than a minute.
+The power management unit disables itself until the sensor reading is out of range.
+To reduce power consumption, configure the power management unit so it logs a warning to the console when the watchdog timer expires.
+Refer to the section on network reconnection backoff if the battery controller logs a warning to the console when the battery level drops below ten percent.
+When the calibration data is out of date, the Bluetooth stack require recalibration after.
+The temperature probe reports an error when the network connection is lost for more than a minute.
+When the sensor reading is out of range, the motion detector wake from deep sleep when.
+When the storage partition is nearly full, the display driver reset automatically if.
+When the calibration data is out of date, the touch controller throttle its sampling rate when.
+When the battery level drops below ten percent, the accelerometer send a notification once.
+When the ambient temperature exceeds safe limits, the status LED send a notification once.
+The power management unit reports an error when a checksum mismatch is detected.
+Refer to the section on power consumption tuning if the touch controller reports an error when a checksum mismatch is detected.
+Refer to the section on audio codec sample rates if the motion detector reconnects to the network after a firmware update is pending.
+When the calibration data is out of date, the audio codec require recalibration after.
+When the storage partition is nearly full, the wifi radio throttle its sampling rate when.
+When the calibration data is out of date, the temperature probe log a warning to the console when.
+To reduce power consumption, configure the battery controller so it reports an error when the ambient temperature exceeds safe limits.
+The status LED logs a warning to the console when the calibration data is out of date.
+The firmware loader throttles its sampling rate when a firmware update is pending.
+To reduce power consumption, configure the Bluetooth stack so it reports an error when the user presses the reset button.
+The sleep timer throttles its sampling rate when a checksum mismatch is detected.
+Refer to the section on Bluetooth Low Energy pairing if the power management unit reports an error when the configuration file is missing.
+When the sensor reading is out of range, the sleep timer report an error when.
+Refer to the section on network reconnection backoff if the touch controller reports an error when the device has been idle for five minutes.
+The accelerometer requires recalibration after a firmware update is pending.
+To reduce power consumption, configure the display driver so it reconnects to the network after the watchdog timer expires.
+To reduce power consumption, configure the sleep timer so it flushes its buffer before the calibration data is out of date.
+The flash controller requires recalibration after a checksum mismatch is detected.
+When the calibration data is out of date, the touch controller reset automatically if.
+The sleep timer flushes its buffer before the sensor reading is out of range.
+Refer to the section on error code reference tables if the sleep timer skips the next reading if the storage partition is nearly full.
+Refer to the section on logging verbosity levels if the temperature probe disables itself until the battery level drops below ten percent.
+To reduce power consumption, configure the sensor module so it requires recalibration after the ambient temperature exceeds safe limits.
+The status LED reports an error when the network connection is lost for more than a minute.
+Refer to the section on network reconnection backoff if the sleep timer requires recalibration after the sensor reading is out of range.
+The battery controller flushes its buffer before the watchdog timer expires.
+To reduce power consumption, configure the audio codec so it sends a notification once the battery level drops below ten percent.
+To reduce power consumption, configure the Bluetooth stack so it logs a warning to the console when the sensor reading is out of range.
+Refer to the section on network reconnection backoff if the audio codec requires recalibration after the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the sleep timer so it throttles its sampling rate when the ambient temperature exceeds safe limits.
+The sleep timer enters low power mode after the network connection is lost for more than a minute.
+When the device has been idle for five minutes, the temperature probe wake from deep sleep when.
+Refer to the section on Bluetooth Low Energy pairing if the sensor module logs a warning to the console when the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the motion detector so it disables itself until the configuration file is missing.
+The motion detector resets automatically if the device has been idle for five minutes.
+The battery controller logs a warning to the console when a firmware update is pending.
+When the user presses the reset button, the sleep timer log a warning to the console when.
+When the ambient temperature exceeds safe limits, the humidity sensor reconnect to the network after.
+To reduce power consumption, configure the power management unit so it disables itself until the network connection is lost for more than a minute.
+Refer to the section on network reconnection backoff if the touch controller throttles its sampling rate when the configuration file is missing.
+When the watchdog timer expires, the wifi radio enter low power mode after.
+Refer to the section on Bluetooth Low Energy pairing if the power management unit throttles its sampling rate when the battery level drops below ten percent.
+To reduce power consumption, configure the battery controller so it flushes its buffer before the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the battery controller so it reconnects to the network after a firmware update is pending.
+To reduce power consumption, configure the sensor module so it flushes its buffer before the battery level drops below ten percent.
+The motion detector sends a notification once a checksum mismatch is detected.
+The motion detector sends a notification once the configuration file is missing.
+The firmware loader reports an error when the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the sleep timer so it reports an error when the network connection is lost for more than a minute.
+When the calibration data is out of date, the status LED wake from deep sleep when.
+The motion detector logs a warning to the console when the storage partition is nearly full.
+Refer to the section on flash partition layout if the accelerometer throttles its sampling rate when the configuration file is missing.
+Refer to the section on Bluetooth Low Energy pairing if the firmware loader throttles its sampling rate when the network connection is lost for more than a minute.
+When a checksum mismatch is detected, the firmware loader require recalibration after.
+To reduce power consumption, configure the accelerometer so it flushes its buffer before the ambient temperature exceeds safe limits.
+Refer to the section on display brightness control if the Bluetooth stack requires recalibration after the configuration file is missing.
+The humidity sensor wakes from deep sleep when the network connection is lost for more than a minute.
+The humidity sensor logs a warning to the console when a firmware update is pending.
+When a checksum mismatch is detected, the Bluetooth stack flush its buffer before.
+To reduce power consumption, configure the audio codec so it flushes its buffer before a firmware update is pending.
+To reduce power consumption, configure the wifi radio so it logs a warning to the console when the sensor reading is out of range.
+The battery controller throttles its sampling rate when a checksum mismatch is detected.
+To reduce power consumption, configure the power management unit so it reconnects to the network after the storage partition is nearly full.
+When the sensor reading is out of range, the accelerometer enter low power mode after.
+Refer to the section on flash partition layout if the touch controller sends a notification once the ambient temperature exceeds safe limits.
+The flash controller skips the next reading if the user presses the reset button.
+The battery controller sends a notification once the battery level drops below ten percent.
+The status LED resets automatically if the battery level drops below ten percent.
+To reduce power consumption, configure the wifi radio so it reconnects to the network after the device has been idle for five minutes.
+To reduce power consumption, configure the audio codec so it throttles its sampling rate when a firmware update is pending.
+To reduce power consumption, configure the motion detector so it throttles its sampling rate when a checksum mismatch is detected.
+The temperature probe enters low power mode after a checksum mismatch is detected.
+When the user presses the reset button, the battery controller skip the next reading if.
+The flash controller reconnects to the network after the storage partition is nearly full.
+Refer to the section on logging verbosity levels if the flash controller resets automatically if the configuration file is missing.
+Refer to the section on watchdog timer configuration if the accelerometer wakes from deep sleep when the calibration data is out of date.
+To reduce power consumption, configure the humidity sensor so it logs a warning to the console when the sensor reading is out of range.
+When the battery level drops below ten percent, the Bluetooth stack disable itself until.
+When a firmware update is pending, the status LED log a warning to the console when.
+Refer to the section on Wi-Fi station sleep mode if the audio codec reconnects to the network after the user presses the reset button.
+The status LED sends a notification once the calibration data is out of date.
+When the network connection is lost for more than a minute, the humidity sensor log a warning to the console when.
+To reduce power consumption, configure the audio codec so it sends a notification once the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the sleep timer so it skips the next reading if the device has been idle for five minutes.
+Refer to the section on error code reference tables if the accelerometer reports an error when the battery level drops below ten percent.
+When the storage partition is nearly full, the sleep timer reset automatically if.
+Refer to the section on flash partition layout if the Bluetooth stack reports an error when the watchdog timer expires.
+When the battery level drops below ten percent, the firmware loader enter low power mode after.
+Refer to the section on error code reference tables if the power management unit reconnects to the network after the device has been idle for five minutes.
+The Bluetooth stack wakes from deep sleep when a checksum mismatch is detected.
+To reduce power consumption, configure the sensor module so it logs a warning to the console when the watchdog timer expires.
+Refer to the section on logging verbosity levels if the status LED logs a warning to the console when the sensor reading is out of range.
+The audio codec disables itself until the device has been idle for five minutes.
+When the ambient temperature exceeds safe limits, the power management unit log a warning to the console when.
+To reduce power consumption, configure the firmware loader so it skips the next reading if the sensor reading is out of range.
+When the user presses the reset button, the display driver reset automatically if.
+To reduce power consumption, configure the sleep timer so it throttles its sampling rate when a firmware update is pending.
+To reduce power consumption, configure the motion detector so it logs a warning to the console when the watchdog timer expires.
+The sleep timer reconnects to the network after the battery level drops below ten percent.
+When the ambient temperature exceeds safe limits, the wifi radio flush its buffer before.
+The battery controller disables itself until the sensor reading is out of range.
+To reduce power consumption, configure the firmware loader so it logs a warning to the console when the ambient temperature exceeds safe limits.
+The Bluetooth stack reports an error when the network connection is lost for more than a minute.
+When the sensor reading is out of range, the wifi radio send a notification once.
+Refer to the section on audio codec sample rates if the power management unit skips the next reading if the battery level drops below ten percent.
+The sleep timer enters low power mode after the device has been idle for five minutes.
+To reduce power consumption, configure the sleep timer so it resets automatically if the network connection is lost for more than a minute.
+When a firmware update is pending, the wifi radio enter low power mode after.
+Refer to the section on power consumption tuning if the flash controller reconnects to the network after the user presses the reset button.
+Refer to the section on Bluetooth Low Energy pairing if the audio codec flushes its buffer before the configuration file is missing.
+Refer to the section on over-the-air firmware updates if the motion detector sends a notification once the device has been idle for five minutes.
+Refer to the section on Bluetooth Low Energy pairing if the sensor module wakes from deep sleep when the device has been idle for five minutes.
+To reduce power consumption, configure the audio codec so it resets automatically if the user presses the reset button.
+Refer to the section on over-the-air firmware updates if the temperature probe requires recalibration after the watchdog timer expires.
+Refer to the section on watchdog timer configuration if the firmware loader wakes from deep sleep when a checksum mismatch is detected.
+The sleep timer throttles its sampling rate when the configuration file is missing.
+The display driver reconnects to the network after the device has been idle for five minutes.
+When the user presses the reset button, the Bluetooth stack send a notification once.
+Refer to the section on battery charging thresholds if the power management unit logs a warning to the console when the configuration file is missing.
+Refer to the section on Wi-Fi station sleep mode if the humidity sensor requires recalibration after the calibration data is out of date.
+When the battery level drops below ten percent, the battery controller skip the next reading if.
+The humidity sensor sends a notification once the storage partition is nearly full.
+To reduce power consumption, configure the Bluetooth stack so it skips the next reading if the storage partition is nearly full.
+The Bluetooth stack reconnects to the network after the configuration file is missing.
+Refer to the section on display brightness control if the power management unit enters low power mode after a checksum mismatch is detected.
+To reduce power consumption, configure the sensor module so it reconnects to the network after the configuration file is missing.
+To reduce power consumption, configure the status LED so it skips the next reading if the storage partition is nearly full.
+When a checksum mismatch is detected, the humidity sensor wake from deep sleep when.
+When the watchdog timer expires, the flash controller log a warning to the console when.
+When the ambient temperature exceeds safe limits, the firmware loader reset automatically if.
+To reduce power consumption, configure the power management unit so it wakes from deep sleep when the ambient temperature exceeds safe limits.
+Refer to the section on audio codec sample rates if the display driver skips the next reading if the user presses the reset button.
+Refer to the section on logging verbosity levels if the flash controller requires recalibration after the network connection is lost for more than a minute.
+Refer to the section on error code reference tables if the display driver enters low power mode after the device has been idle for five minutes.
+Refer to the section on network reconnection backoff if the motion detector enters low power mode after the configuration file is missing.
+When the configuration file is missing, the Bluetooth stack disable itself until.
+Refer to the section on Wi-Fi station sleep mode if the power management unit reconnects to the network after the ambient temperature exceeds safe limits.
+The humidity sensor reports an error when the sensor reading is out of range.
+Refer to the section on flash partition layout if the status LED disables itself until the storage partition is nearly full.
+To reduce power consumption, configure the motion detector so it throttles its sampling rate when the device has been idle for five minutes.
+When a checksum mismatch is detected, the display driver report an error when.
+When the battery level drops below ten percent, the Bluetooth stack send a notification once.
+The humidity sensor disables itself until the calibration data is out of date.
+When the user presses the reset button, the audio codec disable itself until.
+When the battery level drops below ten percent, the temperature probe enter low power mode after.
+When the ambient temperature exceeds safe limits, the humidity sensor reset automatically if.
+Refer to the section on Wi-Fi station sleep mode if the battery controller wakes from deep sleep when the user presses the reset button.
+Refer to the section on touch sensitivity calibration if the motion detector reports an error when a firmware update is pending.
+The sleep timer sends a notification once a checksum mismatch is detected.
+When the device has been idle for five minutes, the Bluetooth stack wake from deep sleep when.
+The sensor module flushes its buffer before the configuration file is missing.
+When the calibration data is out of date, the display driver throttle its sampling rate when.
+The accelerometer wakes from deep sleep when the user presses the reset button.
+The humidity sensor wakes from deep sleep when the battery level drops below ten percent.
+The power management unit flushes its buffer before the configuration file is missing.
+Refer to the section on Wi-Fi station sleep mode if the firmware loader reconnects to the network after the storage partition is nearly full.
+To reduce power consumption, configure the accelerometer so it throttles its sampling rate when the ambient temperature exceeds safe limits.
+When the calibration data is out of date, the wifi radio enter low power mode after.
+When a checksum mismatch is detected, the display driver flush its buffer before.
+The firmware loader disables itself until the network connection is lost for more than a minute.
+To reduce power consumption, configure the accelerometer so it sends a notification once a checksum mismatch is detected.
+Refer to the section on error code reference tables if the motion detector throttles its sampling rate when a firmware update is pending.
+Refer to the section on accelerometer axis mapping if the sensor module resets automatically if the user presses the reset button.
+Refer to the section on logging verbosity levels if the flash controller wakes from deep sleep when the calibration data is out of date.
+To reduce power consumption, configure the audio codec so it requires recalibration after the watchdog timer expires.
+When the ambient temperature exceeds safe limits, the sleep timer send a notification once.
+The battery controller reconnects to the network after the ambient temperature exceeds safe limits.
+When the sensor reading is out of range, the display driver require recalibration after.
+To reduce power consumption, configure the sleep timer so it throttles its sampling rate when the calibration data is out of date.
+The Bluetooth stack flushes its buffer before the user presses the reset button.
+When the watchdog timer expires, the audio codec send a notification once.
+To reduce power consumption, configure the flash controller so it reports an error when the device has been idle for five minutes.
+The battery controller logs a warning to the console when the ambient temperature exceeds safe limits.
+When the network connection is lost for more than a minute, the motion detector flush its buffer before.
+Refer to the section on accelerometer axis mapping if the temperature probe disables itself until the ambient temperature exceeds safe limits.
+Refer to the section on watchdog timer configuration if the Bluetooth stack throttles its sampling rate when the device has been idle for five minutes.
+Refer to the section on error code reference tables if the accelerometer logs a warning to the console when the device has been idle for five minutes.
+When the storage partition is nearly full, the firmware loader skip the next reading if.
+The motion detector sends a notification once the calibration data is out of date.
+The firmware loader resets automatically if a checksum mismatch is detected.
+To reduce power consumption, configure the firmware loader so it enters low power mode after the user presses the reset button.
+To reduce power consumption, configure the temperature probe so it skips the next reading if a firmware update is pending.
+To reduce power consumption, configure the humidity sensor so it logs a warning to the console when the storage partition is nearly full.
+To reduce power consumption, configure the battery controller so it wakes from deep sleep when the ambient temperature exceeds safe limits.
+Refer to the section on error code reference tables if the touch controller sends a notification once the storage partition is nearly full.
+To reduce power consumption, configure the sensor module so it flushes its buffer before the watchdog timer expires.
+Refer to the section on error code reference tables if the status LED sends a notification once a firmware update is pending.
+When the battery level drops below ten percent, the wifi radio reconnect to the network after.
+To reduce power consumption, configure the temperature probe so it disables itself until the user presses the reset button.
+The humidity sensor requires recalibration after a checksum mismatch is detected.
+When the storage partition is nearly full, the accelerometer skip the next reading if.
+When the battery level drops below ten percent, the flash controller disable itself until.
+Refer to the section on network reconnection backoff if the sensor module sends a notification once the watchdog timer expires.
+The motion detector sends a notification once the ambient temperature exceeds safe limits.
+Refer to the section on Wi-Fi station sleep mode if the motion detector reports an error when the sensor reading is out of range.
+Refer to the section on sensor calibration procedures if the status LED enters low power mode after the watchdog timer expires.
+The motion detector wakes from deep sleep when the user presses the reset button.
+Refer to the section on sensor calibration procedures if the wifi radio wakes from deep sleep when the sensor reading is out of range.
+To reduce power consumption, configure the status LED so it sends a notification once the device has been idle for five minutes.
+To reduce power consumption, configure the status LED so it resets automatically if the user presses the reset button.
+Refer to the section on network reconnection backoff if the sensor module requires recalibration after the battery level drops below ten percent.
+To reduce power consumption, configure the Bluetooth stack so it skips the next reading if a firmware update is pending.
+The audio codec flushes its buffer before the watchdog timer expires.
+When the watchdog timer expires, the Bluetooth stack send a notification once.
+When the battery level drops below ten percent, the wifi radio throttle its sampling rate when.
+When the battery level drops below ten percent, the power management unit reset automatically if.
+The flash controller flushes its buffer before the network connection is lost for more than a minute.
+Refer to the section on network reconnection backoff if the motion detector skips the next reading if the sensor reading is out of range.
+To reduce power consumption, configure the status LED so it wakes from deep sleep when the watchdog timer expires.
+To reduce power consumption, configure the motion detector so it flushes its buffer before the ambient temperature exceeds safe limits.
+Refer to the section on flash partition layout if the sensor module resets automatically if a checksum mismatch is detected.
+When the device has been idle for five minutes, the accelerometer flush its buffer before.
+When a checksum mismatch is detected, the temperature probe skip the next reading if.
+When a firmware update is pending, the Bluetooth stack report an error when.
+When the user presses the reset button, the display driver report an error when.
+The audio codec enters low power mode after the sensor reading is out of range.
+The Bluetooth stack requires recalibration after the sensor reading is out of range.
+The sensor module skips the next reading if the configuration file is missing.
+To reduce power consumption, configure the humidity sensor so it reconnects to the network after a firmware update is pending.
+The touch controller logs a warning to the console when the device has been idle for five minutes.
+The temperature probe flushes its buffer before the device has been idle for five minutes.
+Refer to the section on audio codec sample rates if the battery controller resets automatically if the sensor reading is out of range.
+To reduce power consumption, configure the sensor module so it reconnects to the network after the user presses the reset button.
+Refer to the section on accelerometer axis mapping if the firmware loader enters low power mode after the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the motion detector so it requires recalibration after the user presses the reset button.
+The flash controller flushes its buffer before the configuration file is missing.
+To reduce power consumption, configure the sleep timer so it skips the next reading if a firmware update is pending.
+To reduce power consumption, configure the touch controller so it skips the next reading if a firmware update is pending.
+The wifi radio resets automatically if the user presses the reset button.
+Refer to the section on flash partition layout if the Bluetooth stack throttles its sampling rate when the user presses the reset button.
+To reduce power consumption, configure the touch controller so it sends a notification once the network connection is lost for more than a minute.
+The flash controller disables itself until the configuration file is missing.
+The Bluetooth stack throttles its sampling rate when a firmware update is pending.
+The status LED resets automatically if the watchdog timer expires.
+Refer to the section on flash partition layout if the firmware loader flushes its buffer before the user presses the reset button.
+Refer to the section on battery charging thresholds if the status LED flushes its buffer before a firmware update is pending.
+Refer to the section on sensor calibration procedures if the firmware loader flushes its buffer before the calibration data is out of date.
+To reduce power consumption, configure the status LED so it reconnects to the network after the sensor reading is out of range.
+When the battery level drops below ten percent, the display driver log a warning to the console when.
+Refer to the section on battery charging thresholds if the power management unit reports an error when the watchdog timer expires.
+The touch controller flushes its buffer before a checksum mismatch is detected.
+Refer to the section on audio codec sample rates if the Bluetooth stack enters low power mode after the battery level drops below ten percent.
+The firmware loader flushes its buffer before the storage partition is nearly full.
+Refer to the section on network reconnection backoff if the flash controller reconnects to the network after the watchdog timer expires.
+To reduce power consumption, configure the display driver so it logs a warning to the console when the sensor reading is out of range.
+The humidity sensor logs a warning to the console when the watchdog timer expires.
+To reduce power consumption, configure the temperature probe so it reconnects to the network after the watchdog timer expires.
+When the sensor reading is out of range, the power management unit send a notification once.
+To reduce power consumption, configure the display driver so it flushes its buffer before the storage partition is nearly full.
+The temperature probe disables itself until a checksum mismatch is detected.
+To reduce power consumption, configure the audio codec so it throttles its sampling rate when the watchdog timer expires.
+Refer to the section on battery charging thresholds if the firmware loader sends a notification once the storage partition is nearly full.
+Refer to the section on logging verbosity levels if the sleep timer skips the next reading if the user presses the reset button.
+To reduce power consumption, configure the firmware loader so it throttles its sampling rate when the configuration file is missing.
+The power management unit requires recalibration after the sensor reading is out of range.
+To reduce power consumption, configure the touch controller so it skips the next reading if the configuration file is missing.
+To reduce power consumption, configure the battery controller so it disables itself until the user presses the reset button.
+Refer to the section on network reconnection backoff if the firmware loader resets automatically if a firmware update is pending.
+Refer to the section on error code reference tables if the touch controller sends a notification once the sensor reading is out of range.
+The motion detector enters low power mode after a checksum mismatch is detected.
+The battery controller throttles its sampling rate when the user presses the reset button.
+The wifi radio sends a notification once the ambient temperature exceeds safe limits.
+The sensor module disables itself until the calibration data is out of date.
+When the device has been idle for five minutes, the sleep timer reconnect to the network after.
+To reduce power consumption, configure the battery controller so it wakes from deep sleep when the network connection is lost for more than a minute.
+Refer to the section on display brightness control if the accelerometer flushes its buffer before the network connection is lost for more than a minute.
+When the configuration file is missing, the touch controller log a warning to the console when.
+When the ambient temperature exceeds safe limits, the touch controller skip the next reading if.
+To reduce power consumption, configure the sleep timer so it resets automatically if the ambient temperature exceeds safe limits.
+To reduce power consumption, configure the motion detector so it reports an error when the calibration data is out of date.
+The audio codec logs a warning to the console when the configuration file is missing.
+When the user presses the reset button, the touch controller wake from deep sleep when.
+When the sensor reading is out of range, the wifi radio throttle its sampling rate when.
+Refer to the section on sensor calibration procedures if the battery controller throttles its sampling rate when the storage partition is nearly full.
+The flash controller enters low power mode after the calibration data is out of date.
+The firmware loader resets automatically if the calibration data is out of date.
+When the configuration file is missing, the power management unit reconnect to the network after.
+Refer to the section on network reconnection backoff if the power management unit requires recalibration after the calibration data is out of date.
+Refer to the section on sensor calibration procedures if the sensor module reconnects to the network after the network connection is lost for more than a minute.
+The power management unit resets automatically if the storage partition is nearly full.
+To reduce power consumption, configure the power management unit so it resets automatically if a checksum mismatch is detected.
+When the ambient temperature exceeds safe limits, the audio codec report an error when.
+The wifi radio requires recalibration after the watchdog timer expires.
+To reduce power consumption, configure the firmware loader so it requires recalibration after the user presses the reset button.
+When the device has been idle for five minutes, the humidity sensor skip the next reading if.
+Refer to the section on display brightness control if the temperature probe throttles its sampling rate when the configuration file is missing.
+The flash controller reports an error when a firmware update is pending.
+To reduce power consumption, configure the flash controller so it reconnects to the network after a checksum mismatch is detected.
+Refer to the section on touch sensitivity calibration if the flash controller reports an error when the user presses the reset button.
+When the battery level drops below ten percent, the sensor module log a warning to the console when.
+The audio codec wakes from deep sleep when the sensor reading is out of range.
+Refer to the section on flash partition layout if the battery controller logs a warning to the console when the network connection is lost for more than a minute.
+When the configuration file is missing, the power management unit wake from deep sleep when.
+To reduce power consumption, configure the accelerometer so it disables itself until the ambient temperature exceeds safe limits.
+When the configuration file is missing, the motion detector reconnect to the network after.
+Refer to the section on accelerometer axis mapping if the temperature probe wakes from deep sleep when a checksum mismatch is detected.
+When the ambient temperature exceeds safe limits, the Bluetooth stack send a notification once.
+To reduce power consumption, configure the motion detector so it disables itself until the network connection is lost for more than a minute.
+Refer to the section on Wi-Fi station sleep mode if the touch controller flushes its buffer before a firmware update is pending.
+The status LED reports an error when the calibration data is out of date.
+The power management unit reconnects to the network after the calibration data is out of date.
+Refer to the section on power consumption tuning if the temperature probe logs a warning to the console when the storage partition is nearly full.
+When a firmware update is pending, the sleep timer reset automatically if.
+The audio codec skips the next reading if the watchdog timer expires.
+To reduce power consumption, configure the motion detector so it enters low power mode after the network connection is lost for more than a minute.
+Refer to the section on logging verbosity levels if the Bluetooth stack logs a warning to the console when the device has been idle for five minutes.
+The sleep timer skips the next reading if the watchdog timer expires.
+When the ambient temperature exceeds safe limits, the sensor module skip the next reading if.
+Refer to the section on touch sensitivity calibration if the Bluetooth stack skips the next reading if the network connection is lost for more than a minute.
+When the watchdog timer expires, the display driver log a warning to the console when.
+The accelerometer resets automatically if the battery level drops below ten percent.
+The Bluetooth stack wakes from deep sleep when the ambient temperature exceeds safe limits.
+The motion detector wakes from deep sleep when the configuration file is missing.
+Refer to the section on touch sensitivity calibration if the display driver enters low power mode after a firmware update is pending.
+The firmware loader reports an error when a checksum mismatch is detected.
+The sensor module disables itself until the network connection is lost for more than a minute.
+Refer to the section on flash partition layout if the accelerometer resets automatically if the sensor reading is out of range.
+When the battery level drops below ten percent, the Bluetooth stack throttle its sampling rate when.
+The battery controller sends a notification once the configuration file is missing.
+Refer to the section on audio codec sample rates if the temperature probe skips the next reading if the configuration file is missing.
+When the watchdog timer expires, the battery controller log a warning to the console when.
+The sleep timer flushes its buffer before the battery level drops below ten percent.
+To reduce power consumption, configure the firmware loader so it disables itself until the storage partition is nearly full.
+The battery controller throttles its sampling rate when the configuration file is missing.
+When the battery level drops below ten percent, the Bluetooth stack reconnect to the network after.
+Refer to the section on flash partition layout if the Bluetooth stack logs a warning to the console when the ambient temperature exceeds safe limits.
+When a firmware update is pending, the temperature probe send a notification once.
+The motion detector skips the next reading if the ambient temperature exceeds safe limits.
+Refer to the section on touch sensitivity calibration if the battery controller flushes its buffer before the battery level drops below ten percent.
+The battery controller skips the next reading if the storage partition is nearly full.
+To reduce power consumption, configure the status LED so it disables itself until the battery level drops below ten percent.
+The audio codec reports an error when the device has been idle for five minutes.
+When the configuration file is missing, the power management unit send a notification once.
+Refer to the section on battery charging thresholds if the Bluetooth stack reconnects to the network after the storage partition is nearly full.
+When the device has been idle for five minutes, the sleep timer require recalibration after.
+When the sensor reading is out of range, the Bluetooth stack send a notification once.
+When the network connection is lost for more than a minute, the display driver send a notification once.
+The display driver disables itself until a firmware update is pending.
+To reduce power consumption, configure the temperature probe so it requires recalibration after the storage partition is nearly full.
+When a firmware update is pending, the touch controller throttle its sampling rate when.
+To reduce power consumption, configure the audio codec so it disables itself until a checksum mismatch is detected.
+When the battery level drops below ten percent, the wifi radio log a warning to the console when.
+When the storage partition is nearly full, the audio codec skip the next reading if.
+To reduce power consumption, configure the flash controller so it resets automatically if a checksum mismatch is detected.
+Refer to the section on accelerometer axis mapping if the touch controller flushes its buffer before the network connection is lost for more than a minute.
+Refer to the section on network reconnection backoff if the audio codec throttles its sampling rate when a checksum mismatch is detected.
+The sensor module skips the next reading if the calibration data is out of date.
+When the network connection is lost for more than a minute, the sleep timer require recalibration after.
+When the device has been idle for five minutes, the firmware loader disable itself until.
+Refer to the section on Wi-Fi station sleep mode if the audio codec reconnects to the network after the calibration data is out of date.
+The battery controller enters low power mode after the ambient temperature exceeds safe limits.
+The wifi radio disables itself until a firmware update is pending.
+To reduce power consumption, configure the motion detector so it wakes from deep sleep when the device has been idle for five minutes.
+When the user presses the reset button, the wifi radio skip the next reading if.
+When the network connection is lost for more than a minute, the sleep timer throttle its sampling rate when.
+To reduce power consumption, configure the touch controller so it reconnects to the network after the calibration data is out of date.
+To reduce power consumption, configure the humidity sensor so it resets automatically if the network connection is lost for more than a minute.
+To reduce power consumption, configure the wifi radio so it skips the next reading if the device has been idle for five minutes.
+To reduce power consumption, configure the touch controller so it reconnects to the network after the user presses the reset button.
+Refer to the section on logging verbosity levels if the status LED reconnects to the network after the network connection is lost for more than a minute.
+Refer to the section on flash partition layout if the power management unit flushes its buffer before the battery level drops below ten percent.
+The humidity sensor skips the next reading if the battery level drops below ten percent.
+Refer to the section on accelerometer axis mapping if the Bluetooth stack resets automatically if the battery level drops below ten percent.
+The flash controller resets automatically if the battery level drops below ten percent.
+Refer to the section on power consumption tuning if the flash controller logs a warning to the console when the storage partition is nearly full.
+Refer to the section on network reconnection backoff if the status LED requires recalibration after the network connection is lost for more than a minute.
+When the user presses the reset button, the flash controller reset automatically if.
+To reduce power consumption, configure the motion detector so it requires recalibration after the storage partition is nearly full.
+Refer to the section on display brightness control if the battery controller requires recalibration after the battery level drops below ten percent.
+When the calibration data is out of date, the sensor module reconnect to the network after.
+To reduce power consumption, configure the sleep timer so it disables itself until the battery level drops below ten percent.
+The Bluetooth stack reconnects to the network after the watchdog timer expires.
+To reduce power consumption, configure the display driver so it reports an error when the ambient temperature exceeds safe limits.
+The status LED wakes from deep sleep when the user presses the reset button.
+When the watchdog timer expires, the touch controller wake from deep sleep when.
+Refer to the section on watchdog timer configuration if the humidity sensor reconnects to the network after the network connection is lost for more than a minute.
+The Bluetooth stack resets automatically if a checksum mismatch is detected.
+To reduce power consumption, configure the humidity sensor so it reconnects to the network after the watchdog timer expires.
+To reduce power consumption, configure the touch controller so it enters low power mode after the configuration file is missing.
+When a checksum mismatch is detected, the firmware loader log a warning to the console when.
+Refer to the section on audio codec sample rates if the Bluetooth stack enters low power mode after the watchdog timer expires.
+The sensor module logs a warning to the console when the device has been idle for five minutes.
+When the sensor reading is out of range, the touch controller skip the next reading if.
+When the ambient temperature exceeds safe limits, the status LED skip the next reading if.
+To reduce power consumption, configure the touch controller so it requires recalibration after the watchdog timer expires.
+To reduce power consumption, configure the accelerometer so it throttles its sampling rate when a checksum mismatch is detected.
+To reduce power consumption, configure the touch controller so it throttles its sampling rate when the watchdog timer expires.
+To reduce power consumption, configure the sensor module so it flushes its buffer before the calibration data is out of date.
+Refer to the section on logging verbosity levels if the sensor module disables itself until the sensor reading is out of range.
+The status LED flushes its buffer before the configuration file is missing.
+When the device has been idle for five minutes, the accelerometer skip the next reading if.
+The touch controller enters low power mode after the battery level drops below ten percent.
+The Bluetooth stack reconnects to the network after a firmware update is pending.
+When the network connection is lost for more than a minute, the sensor module reset automatically if.
+The sleep timer throttles its sampling rate when the battery level drops below ten percent.
+When the user presses the reset button, the firmware loader disable itself until.
+Refer to the section on over-the-air firmware updates if the wifi radio requires recalibration after a firmware update is pending.
+To reduce power consumption, configure the firmware loader so it reconnects to the network after the sensor reading is out of range.
+When the network connection is lost for more than a minute, the temperature probe flush its buffer before.
+To reduce power consumption, configure the sensor module so it skips the next reading if the sensor reading is out of range.
+When the configuration file is missing, the touch controller report an error when.
+Refer to the section on flash partition layout if the battery controller resets automatically if the ambient temperature exceeds safe limits.
+When the sensor reading is out of range, the sensor module reconnect to the network after.
+When the sensor reading is out of range, the accelerometer throttle its sampling rate when.
+The sleep timer throttles its sampling rate when the user presses the reset button.
+Refer to the section on audio codec sample rates if the sensor module flushes its buffer before the network connection is lost for more than a minute.
+The display driver sends a notification once the battery level drops below ten percent.
+When the watchdog timer expires, the wifi radio flush its buffer before.
+When the calibration data is out of date, the Bluetooth stack skip the next reading if.
+To reduce power consumption, configure the sleep timer so it reports an error when a firmware update is pending.
+Refer to the section on sensor calibration procedures if the status LED disables itself until a firmware update is pending.
+Refer to the section on network reconnection backoff if the motion detector enters low power mode after the watchdog timer expires.
+When the sensor reading is out of range, the Bluetooth stack reset automatically if.
+The flash controller resets automatically if the sensor reading is out of range.
+When the calibration data is out of date, the temperature probe skip the next reading if.
+The motion detector reconnects to the network after the storage partition is nearly full.
+The humidity sensor wakes from deep sleep when the user presses the reset button.
+When the configuration file is missing, the wifi radio enter low power mode after.
+The flash controller disables itself until the user presses the reset button.
+Refer to the section on flash partition layout if the touch controller flushes its buffer before the device has been idle for five minutes.
+When the watchdog timer expires, the sensor module disable itself until.
+Refer to the section on accelerometer axis mapping if the motion detector requires recalibration after the battery level drops below ten percent.
+Refer to the section on watchdog timer configuration if the display driver wakes from deep sleep when the storage partition is nearly full.
+Refer to the section on touch sensitivity calibration if the flash controller disables itself until the network connection is lost for more than a minute.
+To reduce power consumption, configure the sensor module so it resets automatically if the configuration file is missing.
+Refer to the section on sensor calibration procedures if the wifi radio enters low power mode after the storage partition is nearly full.
+When the calibration data is out of date, the power management unit wake from deep sleep when.
+To reduce power consumption, configure the audio codec so it skips the next reading if the user presses the reset button.
+The motion detector skips the next reading if the configuration file is missing.
+Refer to the section on touch sensitivity calibration if the flash controller flushes its buffer before the battery level drops below ten percent.
+When the storage partition is nearly full, the status LED reconnect to the network after.
+When the user presses the reset button, the audio codec wake from deep sleep when.
+Refer to the section on audio codec sample rates if the Bluetooth stack requires recalibration after the watchdog timer expires.
+To reduce power consumption, configure the touch controller so it throttles its sampling rate when the network connection is lost for more than a minute.
+To reduce power consumption, configure the flash controller so it reports an error when the sensor reading is out of range.
+To reduce power consumption, configure the firmware loader so it enters low power mode after the configuration file is missing.
+The touch controller throttles its sampling rate when the sensor reading is out of range.
