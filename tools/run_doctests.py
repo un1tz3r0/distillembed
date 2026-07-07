@@ -137,7 +137,8 @@ def main() -> None:
     clone = workdir / "repo"
     print(f"cloning {args.repo} -> {clone}")
     subprocess.run(
-        ["git", "clone", "--local", "--quiet", str(args.repo), str(clone)], check=True
+        ["git", "clone", "--local", "--no-hardlinks", "--quiet", str(args.repo), str(clone)],
+        check=True,
     )
 
     script_path = clone / "_doctest.sh"

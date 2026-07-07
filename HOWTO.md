@@ -164,9 +164,9 @@ you still want exact scores on the results you show.
 <!-- doctest: slow -->
 ```sh
 make -C cpp
-cpp/build/demo_search models/howto/model.dem models/howto/corpus_int8.demc \
+cpp/build/demo_search models/howto/model_int8.dem models/howto/corpus_int8.demc \
     "battery level low" 2
-cpp/build/demo_search models/howto/model.dem models/howto/corpus_rescore.demc \
+cpp/build/demo_search models/howto/model_int8.dem models/howto/corpus_rescore.demc \
     "battery level low" 2
 ```
 
@@ -182,7 +182,7 @@ error codes) a dense embedding alone can miss:
 
 <!-- doctest: slow -->
 ```sh
-cpp/build/demo_search models/howto/model.dem models/howto/corpus_int8.demc \
+cpp/build/demo_search models/howto/model_int8.dem models/howto/corpus_int8.demc \
     "wifi sleep power saving" 3 --hybrid
 ```
 
@@ -196,7 +196,7 @@ C++:
 <!-- doctest: slow -->
 ```sh
 uv run distillembed embed --model models/howto "battery level low"
-cpp/build/demo_embed models/howto/model.dem "battery level low"
+cpp/build/demo_embed models/howto/model_int8.dem "battery level low"
 ```
 
 For an exact (not just eyeball) parity check across the whole vocabulary,
@@ -253,7 +253,7 @@ int main(int argc, char** argv) {
 
 <!-- doctest: slow -->
 ```sh
-uv run distillembed carray --in models/howto/model.dem \
+uv run distillembed carray --in models/howto/model_int8.dem \
     --out examples/device-docs/model_blob.hpp --symbol g_model
 g++ -std=c++23 -O2 -Iexamples/device-docs -Icpp/include \
     examples/device-docs/embed_only.cpp -o /tmp/embed_only
